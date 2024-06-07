@@ -1,0 +1,10 @@
+//Que reciben 2 vectores de 5 nombres y 5 apellidos, y devuelve un vector de 5 posiciones con la cantidad total de letras entre nombre y apellido.
+function Suma(nombres,apellidos){
+  let suma=[];
+  for(let i=0;i<5;i++){
+    suma[i]=nombres[i].length + apellidos[i].length;
+  }
+  return suma;
+}
+
+Suma(["santiago","lucas","pedro","rope","bartolito"],["Duran","Perez","Lopez","ropa","EraunGallo"]);
